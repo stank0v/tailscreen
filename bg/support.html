@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TailScreen – Поддръжка</title>
+<meta name="description" content="Поддръжка">
+<link rel="icon" href="../favicon.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="./"><img src="../icon.png" alt="">TailScreen</a>
+    <nav><a href="support.html">Поддръжка</a><a href="privacy.html">Поверителност</a><a href="../" hreflang="en">English</a></nav>
+  </header>
+
+  <article>
+    <h1>Поддръжка</h1>
+    <p>Нещо не работи или имаш идея за TailScreen? <a href="https://github.com/stank0v/tailscreen/issues/new">Пиши тук</a> – всяко съобщение се чете.</p>
+    <h2>Често задавани въпроси</h2>
+    <details>
+      <summary>Какво ми трябва?</summary>
+      <p>iPad с iPadOS 18 или по-нов, Mac с macOS 14 или по-нов, TailScreen и на двете и Tailscale, влязъл в един и същ tailnet на двете устройства.</p>
+    </details>
+    <details>
+      <summary>iPad не може да се свърже с Mac.</summary>
+      <p>Провери, че TailScreen е отворен на Mac и показва „Готов за връзка“ и че Tailscale е свързан и на двете устройства. Използвай MagicDNS името на Mac или 100.x адреса му. Ако си сменил Mac или нулирал приложението, натисни „Забрави“ на iPad и се сдвои отново с PIN.</p>
+    </details>
+    <details>
+      <summary>Картината е черна или не се обновява.</summary>
+      <p>Разреши „Запис на екрана“ за TailScreen в System Settings › Privacy &amp; Security на Mac, после затвори и отвори TailScreen.</p>
+    </details>
+    <details>
+      <summary>Мишката и клавиатурата не управляват Mac.</summary>
+      <p>Разреши TailScreen в System Settings › Privacy &amp; Security › Accessibility на Mac.</p>
+    </details>
+    <details>
+      <summary>Има закъснение.</summary>
+      <p>За най-ниско закъснение Tailscale трябва да показва директна връзка (не relay). При слаб Wi-Fi избери профил „Бърза“, при силна мрежа пробвай „120 Hz“.</p>
+    </details>
+    <details>
+      <summary>Как да скролвам, увеличавам и да правя десен клик?</summary>
+      <p>Плъзгай с един или два пръста за скрол, щипни за увеличение, докосни с два пръста за десен клик и с три за среден. Задръж и плъзни, за да маркираш или местиш прозорци. Режимът trackpad (бутонът с ръката) мести курсора като на лаптоп.</p>
+    </details>
+    <details>
+      <summary>Как да пиша клавишни комбинации като ⌘C?</summary>
+      <p>Отвори клавиатурата от лентата и използвай реда с клавиши над нея: едно докосване на ⌘ важи за следващия клавиш, две го задържат. Хардуерна клавиатура работи директно.</p>
+    </details>
+    <details>
+      <summary>Кои мрежови портове използва TailScreen?</summary>
+      <p>TCP 51337 и UDP 51338 на Mac, само в твоя tailnet. Никога не ги пренасочвай през публичния рутер.</p>
+    </details>
+  </article>
+
+  <footer>
+    © 2026 Hristo Stankov · <a href="./">TailScreen</a><a href="support.html">Поддръжка</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Условия за ползване</a>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TailScreen – Support</title>
+<meta name="description" content="Support">
+<link rel="icon" href="./favicon.png">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="./"><img src="./icon.png" alt="">TailScreen</a>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="bg/" hreflang="bg">Български</a></nav>
+  </header>
+
+  <article>
+    <h1>Support</h1>
+    <p>Something not working, or an idea for TailScreen? <a href="https://github.com/stank0v/tailscreen/issues/new">Get in touch here</a> – every message is read.</p>
+    <h2>Frequently asked questions</h2>
+    <details>
+      <summary>What do I need?</summary>
+      <p>An iPad with iPadOS 18 or later, a Mac with macOS 14 or later, TailScreen on both, and Tailscale signed in to the same tailnet on both devices.</p>
+    </details>
+    <details>
+      <summary>The iPad can’t connect to the Mac.</summary>
+      <p>Make sure TailScreen is open on the Mac and shows “Ready to connect”, and that Tailscale is connected on both devices. Use the Mac’s MagicDNS name or its 100.x address. If you changed Macs or reset the app, tap “Forget” on the iPad and pair again with the PIN.</p>
+    </details>
+    <details>
+      <summary>The picture is black or doesn’t update.</summary>
+      <p>Allow Screen Recording for TailScreen in System Settings › Privacy &amp; Security on the Mac, then quit and reopen TailScreen.</p>
+    </details>
+    <details>
+      <summary>The mouse and keyboard don’t control the Mac.</summary>
+      <p>Allow TailScreen under System Settings › Privacy &amp; Security › Accessibility on the Mac.</p>
+    </details>
+    <details>
+      <summary>It feels laggy.</summary>
+      <p>For the lowest delay, Tailscale should show a direct connection (not a relay). On weak Wi-Fi choose the Fast quality profile; on a strong network try 120 Hz.</p>
+    </details>
+    <details>
+      <summary>How do I scroll, zoom and right-click?</summary>
+      <p>Drag with one or two fingers to scroll, pinch to zoom, tap with two fingers for a right click and with three for a middle click. Long-press and drag to select or move windows. Trackpad mode (hand button) moves the cursor like a laptop trackpad.</p>
+    </details>
+    <details>
+      <summary>How do I type shortcuts like ⌘C?</summary>
+      <p>Open the keyboard from the toolbar and use the key bar above it: tap ⌘ once for the next key, or double-tap to keep it pressed. A hardware keyboard works directly.</p>
+    </details>
+    <details>
+      <summary>Which network ports does TailScreen use?</summary>
+      <p>TCP 51337 and UDP 51338 on the Mac, only inside your tailnet. Never forward them on a public router.</p>
+    </details>
+  </article>
+
+  <footer>
+    © 2026 Hristo Stankov · <a href="./">TailScreen</a><a href="support.html">Support</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+  </footer>
+</div>
+</body>
+</html>
